@@ -1,0 +1,150 @@
+
+:root{
+    --primary-color: #9c27b0;
+    --primary-dark: #89119D;
+    --secondary: #ffce00;
+    --secondary-dark: rgb(233,287,2);
+    --light: #FFF;
+    --dark: #000;
+
+    --primary-font: 'Staatliches', cursive;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+
+/* Globales */
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5; /* it's the base of the font-size */
+}
+
+h1{
+    font-family: 'Noto Serif HK', serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.crew-title{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-left: 0;
+}
+
+.who-we-are{
+    margin-top: -4rem;
+}
+
+.who-we-are p{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+
+.p-crew-middle{
+    margin-top: 4rem;
+}
+
+.pos-description{
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: inherit;
+    margin-left: 1rem;
+}
+
+.grid{
+    display: grid;
+	grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    margin-top: 4rem;
+}
+
+.item--2, .item--4, .item--6 {
+    margin-top: 4rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item p{
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: inherit;
+    font-size: 1.2rem;
+    margin-left: -1rem;
+}
+
+@media (min-width: 768px){
+    .crew-title{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .who-we-are{
+        margin-left: 3rem;
+        margin-top: 0;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6rem;
+    }
+
+    .item{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .item p{
+        text-transform: uppercase;
+        writing-mode: vertical-lr;
+        text-orientation: inherit;
+        font-size: 1.3rem;
+        margin-left: auto;
+    }
+
+    .item--2{
+        margin-top: 5rem;
+    }
+
+    .item--5{
+        margin-top: 10rem;
+    }
+}
+
+
+
+img{
+    width: 100%;
+}

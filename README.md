@@ -16,7 +16,6 @@
   - [Editor Used](#editor-used)
 - [Info](#info)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- ABOUT ME -->
@@ -52,7 +51,8 @@ This is a simple example of a CREW MEMBER page that works RESPONSIVELY.
 I mixed Flexbox and GRID in this example in order to get as a final result a responsive page.
 The GRID class (you can see in the code) changes from a 2 x 3 picture disposal to a 3 x  [ rows x cols].
 
-I used Google Fonts as well in order to match as best as possible with the example given.
+I used [Google Fonts](https://fonts.google.com/specimen/Poppins?vfquery=serif&query=pop&preview.text=The%20creative%20crew&preview.text_type=custom) as well in order to match as best as possible with the example given.
+
 
 ## Features
 
@@ -60,14 +60,6 @@ I used Google Fonts as well in order to match as best as possible with the examp
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
